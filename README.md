@@ -1,7 +1,7 @@
 # labpy04
-Latihan2 (investasi dalam 8 bulan) 
+**Latihan2 (investasi dalam 8 bulan) 
 ![gambar 1](picture/gambar1.png)
-Penjelasan 
+*Penjelasan 
 Pada gambar diatas langkah pertama adalah memasukkan modal, sebagai contoh disini modal = 100000000(100Juta).
 
 Lalu selanjutnya adalah membuat daftar persentasi laba perbulan "laba_persen = [0, 0, 0.01, 0.01, 0.05, 0.05, 0.05, 0.02]", Daftar ini berisi persentasi laba per bulan selama 8 bulan. Misalnya Misalnya, bulan ke-1 dan ke-2 tidak menghasilkan laba (0), bulan ke-3 dan ke-4 menghasilkan laba sebesar 1%, dan seterusnya.
@@ -18,14 +18,14 @@ Langkah Selanjutnya yaitu, "print(f"laba bulan ke-{bulan+1} sebesar: {laba_bulan
 
 Dan terakhir ada print(f"Total laba adalah: {laba_total}"), Setelah loop selesai, program akan mencetak total laba yang dihasilkan selama 8 bulan.
  
- Output
+*Output
 ![Gambar 2](picture/gambar2.png)
 Menampilkan laba dari bulan 1 sampai 8 dan totalnya.
 
 
-Latihan3 (Membuat Mesin ATM)
+**Latihan3 (Membuat Mesin ATM)
 ![Gambar 3](picture/gambar3.png)
-Penjelasan
+*Penjelasan
 Pada gambar diatas adalah kode program untuk membuat sebuah ATM sederhana. langkah pertama adalah membuat sebuah variable baru yaitu variable "saldo = 1000000" sebagai contoh disini saya masukkan saldo nya adalah 1juta.
 
 Selanjutnya yaitu "def tampilkan_menu():", Fungsi "tampilkan_menu()" digunakan untuk menampilkan menu utama pada layar, yang berisi informasi saldo saat ini dan dua opsi: tarik tunai atau keluar.
@@ -54,6 +54,6 @@ Langkah selanjutnya "elif jumlah <= 0:", akan memeriksa apakah jumlah yang dimas
 
 Dan terakhir "else:", Jika user memasukkan pilihan selain '1' atau '2', program akan menampilkan pesan bahwa pilihan tidak valid, dan meminta pengguna untuk mencoba lagi.
 
-Output
+*Output
 ![Gambar 4](picture/gambar4.png)
 awalnya saya memilih angka 1 untuk penarikan uang bisa diliat saldo awal saya adalah 1,000,000 dan saya melakukan penarikan 200 dan saldo berkurang menjadi 999,800 kemudian saya pilih 2 untuk mengakhiri penarikan uang
